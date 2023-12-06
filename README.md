@@ -163,13 +163,9 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 
 ## 监控与性能分析
 
-### 参考文档
-
-[Zabbix使用手册](https://www.zabbix.com/documentation/current/zh/manual)
-
-[Zabbix模板案例](https://github.com/zhujinhe/collection-of-zabbix-templates)
-
-[Perf性能分析](https://www.brendangregg.com/perf.html)
++ [Zabbix使用手册](https://www.zabbix.com/documentation/current/zh/manual)
++ [Zabbix模板案例](https://github.com/zhujinhe/collection-of-zabbix-templates)
++ [Perf性能分析](https://www.brendangregg.com/perf.html)
 
 
 -------------------
