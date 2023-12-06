@@ -157,11 +157,47 @@ Spring Cloud的设计目标是帮助开发人员快速构建具有弹性、可�
 
 [Docker中文手册](https://docker-practice.github.io/zh-cn/)
 
-#### Kubernetes:
+#### Kubernetes
 
-[Kubernetes自用笔记](Kubernetes/Kubernetes.md)
++ [Kubernetes自用笔记](Kubernetes/Kubernetes.md)
 
-[Kubernetes详细部署笔记](Kubernetes/follow-me-install-kubernetes-cluster/SUMMARY.md)
+##### Kubernetes详细部署笔记
++ [目录](Kubernetes/follow-me-install-kubernetes-cluster/SUMMARY.md)
++ [00.组件版本和配置策略](Kubernetes/follow-me-install-kubernetes-cluster/00.组件版本和配置策略.md)
++ [01.初始化系统和全局变量](Kubernetes/follow-me-install-kubernetes-cluster/01.初始化系统和全局变量.md)
++ [02.创建CA根证书和秘钥](Kubernetes/follow-me-install-kubernetes-cluster/02.创建CA根证书和秘钥.md)
++ [03.kubectl](Kubernetes/follow-me-install-kubernetes-cluster/03.kubectl.md)
++ [04.etcd集群](Kubernetes/follow-me-install-kubernetes-cluster/04.etcd集群.md)
++ 05.部署master:
+  - [05-1.master节点](Kubernetes/follow-me-install-kubernetes-cluster/05-1.master节点.md)
+  - [05-2.apiserver集群](Kubernetes/follow-me-install-kubernetes-cluster/05-2.apiserver集群.md)
+  - [05-3.controller-manager集群](Kubernetes/follow-me-install-kubernetes-cluster/05-3.controller-manager集群.md)
+  - [05-4.scheduler集群](Kubernetes/follow-me-install-kubernetes-cluster/05-4.scheduler集群.md)
++ 06.部署worker:
+  - [06-1.worker节点](Kubernetes/follow-me-install-kubernetes-cluster/06-1.worker节点.md)
+  - [06-2.apiserver高可用](Kubernetes/follow-me-install-kubernetes-cluster/06-2.apiserver高可用.md)
+  - [06-3.containerd](Kubernetes/follow-me-install-kubernetes-cluster/06-3.containerd.md)
+  - [06-4.kubelet](Kubernetes/follow-me-install-kubernetes-cluster/06-4.kubelet.md)
+  - [06-5.kube-proxy](Kubernetes/follow-me-install-kubernetes-cluster/06-5.kube-proxy.md)
+  - [06-6.calico](Kubernetes/follow-me-install-kubernetes-cluster/06-6.calico.md)
++ [07.验证集群功能](Kubernetes/follow-me-install-kubernetes-cluster/07.验证集群功能.md)
++ 08.部署插件:
+  - [08-1.部署集群插件](Kubernetes/follow-me-install-kubernetes-cluster/08-1.部署集群插件.md)
+  - [08-2.coredns插件](Kubernetes/follow-me-install-kubernetes-cluster/08-2.coredns插件.md)
+  - [08-3.dashboard插件](Kubernetes/follow-me-install-kubernetes-cluster/08-3.dashboard插件.md)
+  - [08-4.kube-prometheus插件](Kubernetes/follow-me-install-kubernetes-cluster/08-4.kube-prometheus插件.md)
+  - [08-5.EFK插件](Kubernetes/follow-me-install-kubernetes-cluster/08-5.EFK插件.md)
++ [09.Registry](Kubernetes/follow-me-install-kubernetes-cluster/09.Registry.md)
++ [10.清理集群](Kubernetes/follow-me-install-kubernetes-cluster/10.清理集群.md)
++ [A.浏览器访问kube-apiserver安全端口](Kubernetes/follow-me-install-kubernetes-cluster/A.浏览器访问kube-apiserver安全端口.md)
++ [B.校验TLS证书](Kubernetes/follow-me-install-kubernetes-cluster/B.校验TLS证书.md)
++ [C.metrics-server插件](Kubernetes/follow-me-install-kubernetes-cluster/C.metrics-server插件.md)
++ [D.部署Harbor-Registry](Kubernetes/follow-me-install-kubernetes-cluster/D.部署Harbor-Registry.md)
++ [E.部署flannel网络](Kubernetes/follow-me-install-kubernetes-cluster/E.部署flannel网络.md)
++ [F.部署docker](Kubernetes/follow-me-install-kubernetes-cluster/F.部署docker.md)
+
+##### 详细文档资料
++ [Kubernetes详细文档资料](Kubernetes/Direction.md)
 
 ### 基本介绍
 容器技术是一种用于虚拟化和隔离应用程序的轻量级虚拟化技术。它将应用程序及其所有依赖项（例如库、配置文件等）打包到一个独立的运行环境中，称为容器。每个容器都是相互隔离且具有自己的文件系统、进程空间和网络接口。
