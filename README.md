@@ -85,7 +85,7 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 
 + [Kubernetes自用笔记](Kubernetes/Kubernetes.md)
 
-##### Kubernetes详细部署笔记
+#### Kubernetes详细部署笔记
 + [目录](Kubernetes/follow-me-install-kubernetes-cluster/SUMMARY.md)
 + [00.组件版本和配置策略](Kubernetes/follow-me-install-kubernetes-cluster/00.组件版本和配置策略.md)
 + [01.初始化系统和全局变量](Kubernetes/follow-me-install-kubernetes-cluster/01.初始化系统和全局变量.md)
@@ -120,7 +120,7 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 + [E.部署flannel网络](Kubernetes/follow-me-install-kubernetes-cluster/E.部署flannel网络.md)
 + [F.部署docker](Kubernetes/follow-me-install-kubernetes-cluster/F.部署docker.md)
 
-##### 详细文档资料
+#### 详细文档资料
 + [1、组件介绍](Kubernetes/文档/1、Kubernetes%20-%20组件介绍/1、笔记/Kubernetes%20组件介绍.pdf)
 + [2、基础概念](Kubernetes/文档/2、Kubernetes%20-%20基础概念/1、笔记/Kubernetes%20基础概念.pdf)
 + [3、集群安装](Kubernetes/文档/3、Kubernetes%20-%20集群安装/1、笔记/Kubernetes%20集群安装.pdf)

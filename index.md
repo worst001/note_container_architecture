@@ -161,7 +161,7 @@ Spring Cloud的设计目标是帮助开发人员快速构建具有弹性、可�
 
 + [Kubernetes自用笔记](Kubernetes/Kubernetes.md)
 
-##### Kubernetes详细部署笔记
+#### Kubernetes详细部署笔记
 + [目录](Kubernetes/follow-me-install-kubernetes-cluster/SUMMARY.md)
 + [00.组件版本和配置策略](Kubernetes/follow-me-install-kubernetes-cluster/00.组件版本和配置策略.md)
 + [01.初始化系统和全局变量](Kubernetes/follow-me-install-kubernetes-cluster/01.初始化系统和全局变量.md)
