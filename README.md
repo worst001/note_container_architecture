@@ -71,7 +71,7 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 ## 文件服务
 
 + [文件服务比较](https://blog.csdn.net/u011436427/article/details/98198935)
-+ [FastDFS](FastDFS/FastDFS.md)
++ [FastDFS](https://cloud.tencent.com/developer/article/1915740)
 + [OSS阿里云](https://help.aliyun.com/zh/oss/product-overview/what-is-oss)
 
 ## 容器技术

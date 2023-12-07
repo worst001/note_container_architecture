@@ -121,7 +121,7 @@ Spring Cloud的设计目标是帮助开发人员快速构建具有弹性、可�
 
 [文件服务比较](https://blog.csdn.net/u011436427/article/details/98198935)
 
-[FastDFS](FastDFS/FastDFS.md)
+[FastDFS](https://cloud.tencent.com/developer/article/1915740)
 
 [OSS阿里云](https://help.aliyun.com/zh/oss/product-overview/what-is-oss)
 
