@@ -1,3 +1,14 @@
+<!-- PROJECT SHIELDS -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+
+<!-- PROJECT LOGO -->
+
 # 容器与架构
 
 总结了架构设计中需要思考的一些问题，同时引入容器技术完善架构的弹性，也涉及到部分安全问题。
@@ -10,18 +21,7 @@
 
 其他相关技术可以访问我的博客，主页地址请访问这里
 
-- 访问入口：[https://mkdocs.grft.top](https://mkdocs.grft.top)
-
-<!-- PROJECT SHIELDS -->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
-
-<!-- PROJECT LOGO -->
+- 访问入口：[http://mkdocs.grft.top](http://mkdocs.grft.top)
 
 --------------------
 
