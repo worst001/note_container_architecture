@@ -1,6 +1,6 @@
 # 运维自动化之ANSIBLE
 
-[TOC]
+<!-- [TOC] -->
 
 ### 本章内容
 - 运维自动化发展历程及技术应用
@@ -14,7 +14,7 @@
 - Playbook字典 with_items
 - Ansible Roles
 
-### 运维自动化发展历程及技术应用
+## 运维自动化发展历程及技术应用
 
 ![image](images/img1.png)
 
@@ -198,7 +198,7 @@ Ansible主要操作对象
    ansible不是服务,不会一直启动,只是需要的时候启动
 ```
 
-### 安装
+## 安装
 ```
 rpm包安装: EPEL源
     yum install ansible
@@ -301,7 +301,7 @@ log_path=/var/log/ansible.log           # 日志文件,建议取消注释
 module_name   = command                 # 默认模块
 ```
 
-### ansible系列命令
+## ansible系列命令
 ```
 Ansible系列命令
     ansible ansible-doc ansible-playbook ansible-vault ansible-console
@@ -614,7 +614,7 @@ Ansible-console：2.0+新增，可交互执行命令，支持tab  (了解)
 ```
 
 
-### playbook
+## playbook
 ```
 > playbook是由一个或多个"play"组成的列表
 > play的主要功能在于将预定义的一组主机，装扮成事先通过ansible中的task定义好的角色。
@@ -632,7 +632,7 @@ Ansible-console：2.0+新增，可交互执行命令，支持tab  (了解)
 从而控制远程主机或者网络设备
 ```
 
-### YAML介绍
+## YAML介绍
 ```
 YAML是一个可读性高的用来表达资料序列的格式。
     YAML参考了其他多种语言，包括：XML、C语言、Python、Perl以及电子邮件格式RFC2822等。
@@ -721,7 +721,7 @@ YAML的语法和其他高阶语言类似，并且可以简单表达清单、散�
 ![image](images/img7.png)
 
 
-### Playbook核心元素
+## Playbook核心元素
 ```
 Hosts          执行的远程主机列表(应用在哪些主机上)
 
@@ -1121,7 +1121,7 @@ vars_files:
     
 ```
 
-### Ansible基础元素
+## Ansible基础元素
 ```
 Facts：是由正在通信的远程目标主机发回的信息，这些信息被保存在ansible变量中。
        要获取指定的远程主机所支持的所有facts，可使用如下命令进行
@@ -1338,7 +1338,7 @@ Works for anything such as ruby or perl and works just like ansible_python_inter
 This replaces shebang of modules which will run on that host.
 ```
 
-### 模板templates
+## 模板templates
 ```
 文本文件，嵌套有脚本（使用模板编程语言编写） 借助模板生成真正的文件
 Jinja2语言，使用字面量，有下面形式
@@ -1532,7 +1532,7 @@ tasks:
     when: ansible_distribution_major_version == "6"
 ```
 
-### Playbook中when条件判断
+## Playbook中when条件判断
 ```
 ---
 - hosts: srv120
@@ -1662,7 +1662,7 @@ with_itmes 嵌套子变量
     - { name: 'testuser2' , groups: 'root'}
 ```
 
-### Playbook字典 with_items
+## Playbook字典 with_items
 ```
 - name: 使用ufw模块来管理哪些端口需要开启
   ufw:
@@ -1760,7 +1760,7 @@ server {
 }
 ```
 
-### roles
+## roles
 ```
 roles
     ansible自1.2版本引入的新特性，用于层次性、结构化地组织playbook。
