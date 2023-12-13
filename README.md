@@ -166,6 +166,13 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
   - [Kubeadm 部署安装改](Kubernetes/文档/11、Kubernetes%20-%20证书可用时间修改/1、笔记/证书有效期修改.pdf)
 
 
+## Ansible
+
++ [详细笔记](运维自动化之ANSIBLE.md)
++ [Ansible](https://cn-ansibledoc.readthedocs.io/zh-cn/latest/)
++ [Ansible-Galaxy](https://galaxy.ansible.com/ui/)
+
+
 ## 监控与性能分析
 
 + [Zabbix使用手册](https://www.zabbix.com/documentation/current/zh/manual)
