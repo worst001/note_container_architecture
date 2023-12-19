@@ -84,6 +84,7 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 #### Docker
 
 + [Docker自用笔记](Docker/Docker.md)
++ [Docker详细笔记](https://github.com/jaywcjlove/docker-tutorial)
 + [Docker中文手册](https://docker-practice.github.io/zh-cn/)
 
 #### Kubernetes
@@ -168,7 +169,7 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 
 ## Ansible
 
-+ [详细笔记](运维自动化之ANSIBLE.md)
++ [详细笔记](Ansible/运维自动化之ANSIBLE.md)
 + [Ansible](https://cn-ansibledoc.readthedocs.io/zh-cn/latest/)
 + [Ansible-Galaxy](https://galaxy.ansible.com/ui/)
 

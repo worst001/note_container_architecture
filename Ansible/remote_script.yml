@@ -1,0 +1,18 @@
+- name: Execute a script on remote servers
+  hosts: 10.211.55.3
+  tasks:
+    - name: Transfer the script to the remote server
+      ansible.builtin.copy:
+        src: /Users/hanwenhao/opt/Script/aaa.sh
+        dest: /tmp/script.sh
+        mode: '0755'
+
+    - name: Execute the script
+      ansible.builtin.command:
+        cmd: /tmp/script.sh
+      register: script_output
+
+    - name: Show script output
+      ansible.builtin.debug:
+        msg: "{{ script_output.stdout }}"
+

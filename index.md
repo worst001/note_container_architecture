@@ -166,6 +166,8 @@ Spring Cloud的设计目标是帮助开发人员快速构建具有弹性、可�
 
 [Docker自用笔记](Docker/Docker.md)
 
+[Docker详细笔记](https://github.com/jaywcjlove/docker-tutorial)
+
 [Docker中文手册](https://docker-practice.github.io/zh-cn/)
 
 #### Kubernetes
@@ -231,7 +233,7 @@ Spring Cloud的设计目标是帮助开发人员快速构建具有弹性、可�
 
 ### 参考资料
 
-[详细笔记](运维自动化之ANSIBLE.md)
+[详细笔记](Ansible/运维自动化之ANSIBLE.md)
 
 [Ansible](https://cn-ansibledoc.readthedocs.io/zh-cn/latest/)
 
