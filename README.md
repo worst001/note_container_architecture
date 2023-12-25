@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -9,7 +10,38 @@
 
 <!-- PROJECT LOGO -->
 
-# 容器与架构
+<!-- 项目LOGO -->
+<br />
+<div align="center">
+  <a href="http://mkdocs.grft.top">
+    <img src="https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/mkdocs/logo.png" alt="Logo" width="480" height="270">
+  </a>
+
+  <h3 align="center">容器与架构</h3>
+
+  <p align="center">
+    <br />
+    <a href="http://mkdocs.grft.top/容器与架构/"><strong>探索文档 »</strong></a>
+    <br />
+  </p>
+</div>
+
+<!-- 目录 -->
+<details>
+  <summary>目录</summary>
+  <ol>
+    <li><a href="#关于项目">关于项目</a></li>
+    <li><a href="#什么是架构设计">什么是架构设计</a></li>
+    <li><a href="#什么是容器技术">什么是容器技术</a></li>
+    <li><a href="#技术目录">技术目录</a></li>
+    <li><a href="#贡献">贡献</a></li>
+    <li><a href="#许可证">许可证</a></li>
+    <li><a href="#联系方式">联系方式</a></li>
+    <li><a href="#鸣谢">鸣谢</a></li>
+  </ol>
+</details>
+
+## 关于项目
 
 总结了架构设计中需要思考的一些问题，同时引入容器技术完善架构的弹性，也涉及到部分安全问题。
 
@@ -23,11 +55,11 @@
 
 - 访问入口：[http://mkdocs.grft.top](http://mkdocs.grft.top)
 
---------------------
-
 互联网中的架构设计和容器技术分别涵盖了软件开发和部署的关键方面。
 
-## 架构设计
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+## 什么是架构设计
 互联网架构设计是指根据业务需求，系统特性，以及预期的用户负载来规划和设计软件系统的结构。
 一个良好的架构设计能支持软件系统的伸缩性、可用性、性能和安全性。在互联网公司，架构通常需要设计得能够处理高并发访问、数据一致性问题、分布式系统的复杂性等等。
 
@@ -39,7 +71,9 @@
 + 事件驱动架构 - 中心化在事件的产生、探测、响应的机制，非常适合于高度异步的系统。
 + 云原生架构 - 设计用于利用云计算优势的架构，包括微服务、容器化、DevOps、持续交付和可观测性。
 
-## 容器技术
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+## 什么是容器技术
 容器技术是一种轻量级、可移植、自给自足的软件打包机制，能让应用程序在几乎任何环境中无缝运行。容器为应用程序提供了一个隔离的执行环境，称为容器，该环境包括应用程序及其所有依赖，从而避免了在不同环境之间迁移时出现的“在我的机器上可以运行”问题。
 Docker是一个广泛使用的容器平台，它使得创建、部署和运行容器变得简单。Kubernetes是一个容器编排系统，用于自动化容器部署、扩展和管理。
 
@@ -51,21 +85,20 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 + 可移植性 - 容器可以在任何支持容器技术的环境中运行，包括各种云服务平台。
 + 伸缩性和自动化 - 容器可以利用Kubernetes等工具进行自动化扩缩和负载管理。
 
-## 两者的关系
+### 两者的关系
 结合架构设计和容器技术可以创建出高度可扩展的、有弹性的互联网应用。架构设计提供了一个总体蓝图，而容器技术则为这些建筑的每个独立部分提供了一种高效和一致性的运行和管理方式。这样的结合通常被称为云原生架构，在云环境中发挥着越来越重要的作用。
 
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
---------------------
-
-## 目录
+## 技术目录
 
 [目录与大纲](index.md)
 
-## 架构设计
+### 架构设计
 
 + [架构设计要点](架构设计要点/架构设计.md)
 
-## SpringCloud
+### SpringCloud
 
 + [SpringCloud官方文档](https://www.springcloud.cc/spring-reference.html)
 + [SpringCloudAlibaba官方文档](https://github.com/alibaba/spring-cloud-alibaba/wiki)
@@ -73,13 +106,13 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 + [SpringCloud脚手架](https://github.com/zhoutaoo/SpringCloud)
 
 
-## 文件服务
+### 文件服务
 
 + [文件服务比较](https://blog.csdn.net/u011436427/article/details/98198935)
 + [FastDFS](https://cloud.tencent.com/developer/article/1915740)
 + [OSS阿里云](https://help.aliyun.com/zh/oss/product-overview/what-is-oss)
 
-## 容器技术
+### 容器技术
 
 #### Docker
 
@@ -167,40 +200,55 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
   - [Kubeadm 部署安装改](Kubernetes/文档/11、Kubernetes%20-%20证书可用时间修改/1、笔记/证书有效期修改.pdf)
 
 
-## Ansible
+### Ansible
 
 + [详细笔记](Ansible/运维自动化之ANSIBLE.md)
 + [Ansible](https://cn-ansibledoc.readthedocs.io/zh-cn/latest/)
 + [Ansible-Galaxy](https://galaxy.ansible.com/ui/)
 
 
-## 监控与性能分析
+### 监控与性能分析
 
 + [Zabbix使用手册](https://www.zabbix.com/documentation/current/zh/manual)
 + [Zabbix模板案例](https://github.com/zhujinhe/collection-of-zabbix-templates)
 + [Perf性能分析](https://www.brendangregg.com/perf.html)
 
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
--------------------
+<!-- 贡献 -->
+
+## 贡献
+
+贡献是使开源社区成为一个如此令人惊叹的地方，以学习、激励和创造。您所做的任何贡献都将非常感谢。
+
+如果您对使这个项目变得更好有建议，请 fork 该仓库并创建 pull request。您也可以打开一个带有“enhancement”标签的问题。不要忘记给这个项目点个星！再次感谢！
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
 
-## 版本控制
+<!-- 许可证 -->
+## 许可证
 
-该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
+根据 MIT 许可证进行分发。更多信息请参见 [LICENSE.txt](LICENSE)。
 
-<!-- ## 作者 -->
-<!--  -->
-<!-- [小昊子](https://github.com/worst001) -->
-<!--  -->
-<!-- 制做不易，如果有帮到你就请作者喝杯咖啡吧! -->
-<!--  -->
-<!-- ![支付宝加微信](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E6%94%AF%E4%BB%98%E5%AE%9D%E5%8A%A0%E5%BE%AE%E4%BF%A1.jpg) -->
-<!--  -->
-<!-- 作者无聊时做的测试游戏，完全免费哦！ -->
-<!--  -->
-<!-- ![公众号](https://xiyou-oss.oss-cn-shanghai.aliyuncs.com/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%B8%8E%E6%94%AF%E4%BB%98/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B0%8F.jpg) -->
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
-## 参考资料
+<!-- 联系方式 -->
+## 联系方式
+
+关注我: [小昊子](https://github.com/worst001)
+
+博客地址: [http://mkdocs.grft.top](http://mkdocs.grft.top)
+
+项目链接: [https://github.com/worst001/mkdocs_container_architecture](https://github.com/worst001/mkdocs_container_architecture)
+
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
+
+## 鸣谢
+
+因为仓库与文档的数量比较大，有些借鉴资料忘了在`参考文档`部分提及原作者与原仓库，若有疏漏请告诉，我及时补上。
+
+所有引用的原资料都确认是开源认证，若有侵权请告知。
 
 [https://github.com/zhoutaoo/SpringCloud](https://github.com/zhoutaoo/SpringCloud)
 
@@ -210,12 +258,9 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 
 [尚硅谷系列教程资料](http://www.atguigu.com/opensource.shtml)
 
+[https://openai.com/chatgpt](https://openai.com/chatgpt)
 
-### 写在最后的话
-
-因为仓库与文档的数量比较大，有些借鉴资料忘了在`参考文档`部分提及原作者与原仓库，若有疏漏请告诉，我及时补上。
-
-所有引用的原资料都确认是开源认证，若有侵权请告知。
+<p align="right">(<a href="#readme-top">返回顶部</a>)</p>
 
 <!-- links -->
 [your-project-path]:shaojintian/Best_README_template

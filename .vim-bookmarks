@@ -1,3 +1,0 @@
-let l:bm_file_version = 1
-let l:bm_sessions = {'default': {'/Users/hanwenhao/Cloud/笔记/技术笔记/容器与架构/docs/运维自动化之ANSIBLE.md': [{'sign_idx': 9500, 'line_nr': 1763, 'content': '## roles'},],}}
-let l:bm_current_session = 'default'
