@@ -256,6 +256,10 @@ Docker是一个广泛使用的容器平台，它使得创建、部署和运行�
 
 [https://github.com/opsnull/follow-me-install-kubernetes-cluster](https://github.com/opsnull/follow-me-install-kubernetes-cluster)
 
+[https://github.com/ansible/ansible-examples](https://github.com/ansible/ansible-examples)
+
+[https://www.yuque.com/qiuyi1992/blog/upib2e](https://www.yuque.com/qiuyi1992/blog/upib2e)
+
 [尚硅谷系列教程资料](http://www.atguigu.com/opensource.shtml)
 
 [https://openai.com/chatgpt](https://openai.com/chatgpt)
